@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    width: 100%;
+}
+
+.cont-form, .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.form{
+    padding: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 1em;
+}
+.cont-form p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.element-form{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.element-form label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.element-form textarea{
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 0.5em;
+}
+
+.element-form select{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transition: all 0.3 seconds;
+}
+
+.element-form button{
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.element-form button:hover{
+    background: lightsalmon;
+}
+
+.registros{
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.registros h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.registros table thead tr th{
+    padding: 15px;
+    border: solid 1px #000;
+    border-radius: .5em;
+}
+
+.registros table tbody tr td{
+    padding: 15px;
+    border: solid 1px #000;
+}
